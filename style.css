@@ -1,6 +1,8 @@
 body {
     background-color: #1f2937;
     font-family: 'Roboto';
+    margin: 0;
+    
 }
 
 
@@ -10,6 +12,7 @@ body {
     align-items: center;
     margin-bottom: 45px;
     gap:420px;
+    margin-top:25px;
 }
 
 .headerlogo {
@@ -32,6 +35,9 @@ body {
     justify-content: center;
     align-items: center;
     gap:100px;
+    padding-top:40px;
+    padding-bottom:40px;
+    
 }
 
 .flex-container-left {
@@ -77,3 +83,50 @@ button p{
     width: 400px;
     height: auto;
 }
+
+.secondbox {
+    background-color: white;
+    padding: 40px;
+    
+}
+
+.sbtitle {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    display:flex;
+    justify-content: center;
+    align-items: center;;
+    padding-bottom:40px;
+}
+
+.sb-flex-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+}
+
+.boxcaption {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.boxcaption .box {
+    height:150px;
+    width:150px;
+    border-radius: 15px;
+    background-color: #E5E7EB;
+    border: 3px solid #3882f6;
+}
+
+.boxcaption .caption {
+    display:flex;
+    max-width: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+}
+
