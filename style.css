@@ -1,0 +1,79 @@
+body {
+    background-color: #1f2937;
+    font-family: 'Roboto';
+}
+
+
+.headerspace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+    gap:420px;
+}
+
+.headerlogo {
+    font-size: 24px;
+    color: #f0faf8;
+}
+
+.headerlinks {
+    display: flex;
+    gap: 25px;
+}
+.headerlinks a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.topbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+}
+
+.flex-container-left {
+    display:flex;
+    flex-direction: column;
+    gap:25px;
+
+}
+.tbtitle {
+    font-weight:900;
+    font-size: 48px;
+    color: #f9faf8;
+    flex-wrap: wrap;
+    max-width: 450px;
+}
+
+.tbtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    flex-wrap: wrap;
+    max-width: 450px;
+}
+
+button.sign-up {
+    width: 90px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button p{
+    font-size: 18px;
+    font-weight: 300;
+    margin:0;
+    padding:0;
+}
+.tbpicture img {
+    width: 400px;
+    height: auto;
+}
