@@ -130,3 +130,31 @@ button p{
     text-align: center;   
 }
 
+.thirdbox {
+    background-color: #e5e7eb;
+    padding: 80px;
+}
+
+.tb-flex-container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+}
+
+.tbquote {
+    width:600px;
+    font-size: 36px;
+    font-style: italic;
+    color:#1f2937;
+    
+}
+
+.tbauthor {
+    width:600px;
+    text-align: end;
+    font-size: 20px;
+    font-weight: 900;
+    padding-right: 60px;
+}
