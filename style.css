@@ -158,3 +158,49 @@ button p{
     font-weight: 900;
     padding-right: 60px;
 }
+
+.lastbox {
+    background-color: white;
+    padding: 100px;
+    display:flex;
+    justify-content: center;
+}
+
+.lb-flexbox-container {
+    width:800px;
+    background-color: #3882f6;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:75px;
+    padding:40px;
+}
+
+.lb-flexbox-left {
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.lbtitle {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.lbtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button.sign-up-2 {
+    width: 110px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
